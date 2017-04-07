@@ -1,0 +1,18 @@
+[2017-04-04 03:28:44 +0000] [24852] [INFO] Starting gunicorn 19.7.1
+[2017-04-04 03:28:44 +0000] [24852] [INFO] Listening at: http://127.0.0.1:8000 (24852)
+[2017-04-04 03:28:44 +0000] [24852] [INFO] Using worker: sync
+[2017-04-04 03:28:44 +0000] [24908] [INFO] Booting worker with pid: 24908
+[2017-04-04 11:20:57 +0000] [24852] [INFO] Handling signal: term
+[2017-04-04 11:20:57 +0000] [24908] [INFO] Worker exiting (pid: 24908)
+[2017-04-04 11:20:57 +0000] [24852] [INFO] Shutting down: Master
+[2017-04-04 11:21:02 +0000] [2134] [INFO] Starting gunicorn 19.7.1
+[2017-04-04 11:21:02 +0000] [2134] [INFO] Listening at: http://127.0.0.1:8000 (2134)
+[2017-04-04 11:21:02 +0000] [2134] [INFO] Using worker: sync
+[2017-04-04 11:21:02 +0000] [2193] [INFO] Booting worker with pid: 2193
+[2017-04-04 22:34:41 +0000] [2134] [INFO] Handling signal: term
+[2017-04-04 22:34:41 +0000] [2193] [INFO] Worker exiting (pid: 2193)
+[2017-04-04 22:34:41 +0000] [2134] [INFO] Shutting down: Master
+[2017-04-04 22:37:46 +0000] [1972] [INFO] Starting gunicorn 19.7.1
+[2017-04-04 22:37:46 +0000] [1972] [INFO] Listening at: http://127.0.0.1:8000 (1972)
+[2017-04-04 22:37:46 +0000] [1972] [INFO] Using worker: sync
+[2017-04-04 22:37:46 +0000] [2042] [INFO] Booting worker with pid: 2042

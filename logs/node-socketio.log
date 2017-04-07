@@ -1,0 +1,342 @@
+listening on *: 9000
+listening on *: 9000
+listening on *: 9000
+{ Error: Not Found
+    at Request.callback (/home/frappe/frappe-bench/node_modules/superagent/lib/node/index.js:675:11)
+    at Stream.<anonymous> (/home/frappe/frappe-bench/node_modules/superagent/lib/node/index.js:883:18)
+    at emitNone (events.js:86:13)
+    at Stream.emit (events.js:185:7)
+    at Unzip.<anonymous> (/home/frappe/frappe-bench/node_modules/superagent/lib/node/unzip.js:53:12)
+    at emitNone (events.js:91:20)
+    at Unzip.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+  status: 404,
+  response: 
+   Response {
+     domain: null,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: undefined,
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Object],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'NOT FOUND',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Object],
+        setEncoding: [Function],
+        on: [Function],
+        text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n    </script>\n</head>\n<body data-path="api/method/frappe.async.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div>\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span><img src=\'/files/icon.ico\' style=\'max-width: 40px; max-height: 25px;\'> Xander Manufacture</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li></ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" id="page-message" data-path="message"\n\t>\n\t<div class="row ">\n\t\t\n\t\t<div class=" page-content col-sm-12 ">\n\t\t\t<div class="page-content-wrapper">\n\t\t\t\t<div class="row page-head">\n\t\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n\n<div class=\'page-card\'>\n\t<div class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</div>\n\t<p>The resource you are looking for is not available</p>\n\t\n\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\tHome</a></div>\n\t\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n\n</style>\n</div>\n\t\t</div>\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val()) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; Xander Manufacture\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\n\t<script>frappe.csrf_token = "b0188820ccf61405f4aa9b6d5b53159edcddb344c0dd9765afc4fb2c";</script></body>\n</html>',
+        read: [Function] },
+     request: 
+      Request {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        _agent: false,
+        _formData: null,
+        method: 'GET',
+        url: 'http://128.199.101.124/api/method/frappe.async.can_subscribe_doc',
+        _header: [Object],
+        header: [Object],
+        writable: true,
+        _redirects: 0,
+        _maxRedirects: 5,
+        cookies: '',
+        qs: [Object],
+        qsRaw: [],
+        _redirectList: [],
+        _streamRequest: false,
+        req: [Object],
+        protocol: 'http:',
+        host: '128.199.101.124',
+        _endCalled: true,
+        _callback: [Function],
+        res: [Object],
+        response: [Circular],
+        called: true },
+     req: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedHeader: {},
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /api/method/frappe.async.can_subscribe_doc?sid=ff117e1bdba0098df2f0455a06c93c0e139164c89f0d7d8f4038a50e&doctype=Sales%20Order&docname=New%20Sales%20Order%201 HTTP/1.1\r\nHost: 128.199.101.124\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: node-superagent/3.5.2\r\nContent-Type: application/x-www-form-urlencoded\r\nConnection: close\r\n\r\n',
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: null,
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/api/method/frappe.async.can_subscribe_doc?sid=ff117e1bdba0098df2f0455a06c93c0e139164c89f0d7d8f4038a50e&doctype=Sales%20Order&docname=New%20Sales%20Order%201',
+        _ended: true,
+        parser: null,
+        res: [Object] },
+     text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n    </script>\n</head>\n<body data-path="api/method/frappe.async.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div>\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span><img src=\'/files/icon.ico\' style=\'max-width: 40px; max-height: 25px;\'> Xander Manufacture</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li></ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" id="page-message" data-path="message"\n\t>\n\t<div class="row ">\n\t\t\n\t\t<div class=" page-content col-sm-12 ">\n\t\t\t<div class="page-content-wrapper">\n\t\t\t\t<div class="row page-head">\n\t\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n\n<div class=\'page-card\'>\n\t<div class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</div>\n\t<p>The resource you are looking for is not available</p>\n\t\n\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\tHome</a></div>\n\t\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n\n</style>\n</div>\n\t\t</div>\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val()) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; Xander Manufacture\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\n\t<script>frappe.csrf_token = "b0188820ccf61405f4aa9b6d5b53159edcddb344c0dd9765afc4fb2c";</script></body>\n</html>',
+     body: {},
+     files: undefined,
+     buffered: true,
+     headers: 
+      { server: 'nginx/1.10.0 (Ubuntu)',
+        date: 'Tue, 04 Apr 2017 05:08:52 GMT',
+        'content-type': 'text/html; charset=utf-8',
+        'transfer-encoding': 'chunked',
+        connection: 'close',
+        vary: 'Accept-Encoding',
+        'x-page-name': 'message',
+        'x-from-cache': 'False',
+        'set-cookie': [Object],
+        'content-encoding': 'gzip' },
+     header: 
+      { server: 'nginx/1.10.0 (Ubuntu)',
+        date: 'Tue, 04 Apr 2017 05:08:52 GMT',
+        'content-type': 'text/html; charset=utf-8',
+        'transfer-encoding': 'chunked',
+        connection: 'close',
+        vary: 'Accept-Encoding',
+        'x-page-name': 'message',
+        'x-from-cache': 'False',
+        'set-cookie': [Object],
+        'content-encoding': 'gzip' },
+     statusCode: 404,
+     status: 404,
+     statusType: 4,
+     info: false,
+     ok: false,
+     redirect: false,
+     clientError: true,
+     serverError: false,
+     error: 
+      { Error: cannot GET /api/method/frappe.async.can_subscribe_doc?sid=ff117e1bdba0098df2f0455a06c93c0e139164c89f0d7d8f4038a50e&doctype=Sales%20Order&docname=New%20Sales%20Order%201 (404)
+          at Response.toError (/home/frappe/frappe-bench/node_modules/superagent/lib/node/response.js:94:13)
+          at ResponseBase._setStatusProperties (/home/frappe/frappe-bench/node_modules/superagent/lib/response-base.js:122:16)
+          at new Response (/home/frappe/frappe-bench/node_modules/superagent/lib/node/response.js:40:8)
+          at Request._emitResponse (/home/frappe/frappe-bench/node_modules/superagent/lib/node/index.js:738:20)
+          at Stream.<anonymous> (/home/frappe/frappe-bench/node_modules/superagent/lib/node/index.js:883:38)
+          at emitNone (events.js:86:13)
+          at Stream.emit (events.js:185:7)
+          at Unzip.<anonymous> (/home/frappe/frappe-bench/node_modules/superagent/lib/node/unzip.js:53:12)
+          at emitNone (events.js:91:20)
+          at Unzip.emit (events.js:185:7)
+        status: 404,
+        text: '<!DOCTYPE html>\n<!-- Built on Frappe. https://frappe.io/ -->\n<html lang="en">\n<head>\n\t<meta charset="utf-8">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>Not Found</title>\n\t<meta name="generator" content="frappe">\n\n    \n\t<link rel="shortcut icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n\t<link rel="icon"\n\t\thref="/assets/erpnext/images/favicon.png"\n\t\ttype="image/x-icon">\n    \n\n\t\t\n\t\t<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">\n\t\t<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">\n\t\t<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>\n\t\twindow.frappe = {};\n\t\tfrappe.ready_events = [];\n\t\tfrappe.ready = function(fn) {\n\t\t\tfrappe.ready_events.push(fn);\n\t\t}\n\t\twindow.dev_server = 0;\n    </script>\n</head>\n<body data-path="api/method/frappe.async.can_subscribe_doc">\n\t<div class="main-section">\n\t\t<div>\n\t\t\t<header>\n\t\t\t\t\t<nav class="navbar navbar-default navbar-main" role="navigation">\n\t\t<div class="container">\n\t\t\t<div class="navbar-header">\n\t\t\t\t<a class="navbar-brand ellipsis"\n\t\t\t\t\t href="/">\n\t\t\t\t\t<span><img src=\'/files/icon.ico\' style=\'max-width: 40px; max-height: 25px;\'> Xander Manufacture</span>\n\t\t\t\t</a>\n\t\t\t\t<div class="dropdown">\n\t\t\t\t\t<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">\n\t\t\t\t\t\t<i class="octicon octicon-three-bars"></i>\n\t\t\t\t\t</button>\n\t\t\t\t\t<ul class="dropdown-menu dropdown-menu-right">\n<li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n\n<li class="divider"></li>\n\n<!-- post login tools -->\n<li data-label="My Account" \n class=" logged-in" ><a href="/me" \n\trel="nofollow">\n\tMy Account\n\t</a></li><li data-label="Logout" \n class=" logged-in" ><a href="/?cmd=web_logout" \n\trel="nofollow">\n\tLogout\n\t</a></li>\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="hidden-xs">\n\t\t\t\t\n\t\t\t\t<ul class="nav navbar-nav navbar-left"><li data-label=\'Contact\' >\n\t<a href="/contact"\n\t\t\n\t\t>\n\tContact</a></li><li data-label=\'Blog\' >\n\t<a href="/blog"\n\t\t\n\t\t>\n\tBlog</a></li><li data-label=\'Products\' >\n\t<a href="/products"\n\t\t\n\t\t>\n\tProducts</a></li>\n</ul>\n<ul class="nav navbar-nav navbar-right">\n\t\n\t\t\n\t<li class="shopping-cart hidden">\n\t\t<div class="cart-icon">\n\t\t\t<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">\n\t\t\t\tCart <span class="badge-wrapper" id="cart-count"></span>\n\t\t\t</a>\n\t\t\t<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>\n\t\t</div>\n\t </li>\n\n\t\n\t\n\t<!-- post login tools -->\n\n<li class="dropdown logged-in" id="website-post-login"\n\tdata-label="website-post-login" style="display: none">\n\t<a href="#" class="dropdown-toggle" data-toggle="dropdown">\n\t\t<span class="user-image-wrapper"></span>\n\t\t<span class="full-name"></span>\n\t\t<b class="caret"></b>\n\t</a>\n    <ul class="dropdown-menu" role="menu"><li data-label="My Account" \n\t\t\t><a href="/me" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tMy Account\n\t\t\t\t</a></li><li data-label="Logout" \n\t\t\t><a href="/?cmd=web_logout" \n\t\t\t\t\trel="nofollow">\n\t\t\t\t\tLogout\n\t\t\t\t</a></li></ul>\n</li>\n\n<li class="btn-login-area"><a href="/login">Login</a></li>\n\n\n</ul>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</nav></header>\n\n            <div class="hero-and-content">\n                <div data-html-block="hero"></div>\n                <div class="container">\n                \n<div class="page-container" id="page-message" data-path="message"\n\t>\n\t<div class="row ">\n\t\t\n\t\t<div class=" page-content col-sm-12 ">\n\t\t\t<div class="page-content-wrapper">\n\t\t\t\t<div class="row page-head">\n\t\t\t\t\t<div class=\'col-sm-12\'>\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="col-sm-8 col-xs-6">\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="col-sm-4 col-xs-6">\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="page_content">\n\n<div class=\'page-card\'>\n\t<div class=\'page-card-head\'>\n\t\t<span class=\'indicator red\'>\n\t\t\tNot Found</span>\n\t</div>\n\t<p>The resource you are looking for is not available</p>\n\t\n\t<div><a href=\'/\' class=\'btn btn-primary btn-sm\'>\n\t\tHome</a></div>\n\t\n</div>\n\n<p class=\'text-muted text-center small\' style=\'margin-top: -20px;\'>Status: 404</p>\n\n<style>\n.hero-and-content {\n\tbackground-color: #f5f7fa;\n}\n\n</style>\n</div>\n\t\t</div>\n\t</div>\n</div>\n\n                </div>\n            </div></div>\n\t\t<div><footer class="web-footer">\n\t<section class="footer-links">\n\t\t<div class="container">\n\t\t\t<div class="row">\n\t\t\t\t<div class="col-sm-6 text-left">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<div class="col-sm-6 text-right">\n\t\t\t\t\t\n\t\t\t\t\t\t\n<div class=\'input-group input-group-sm pull-right footer-subscribe\'>\n\t<input class="form-control" type="text" id="footer-subscribe-email"\n\t\tplaceholder="Your email address...">\n\t<span class=\'input-group-btn\'>\n\t\t<button class="btn btn-default" type="button"\n\t\t\tid="footer-subscribe-button">Get Updates</button>\n\t</span>\n</div>\n\n<script>\nfrappe.ready(function() {\n\t$("#footer-subscribe-button").click(function() {\n\n\t\tif($("#footer-subscribe-email").val()) {\n\t\t\t$("#footer-subscribe-email").attr(\'disabled\', true);\n\t\t\t$("#footer-subscribe-button").html("Sending...")\n\t\t\t\t.attr("disabled", true);\n\t\t\terpnext.subscribe_to_newsletter({\n\t\t\t\temail: $("#footer-subscribe-email").val(),\n\t\t\t\tcallback: function(r) {\n\t\t\t\t\tif(!r.exc) {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Added"))\n\t\t\t\t\t\t\t.attr("disabled", true);\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$("#footer-subscribe-button").html(__("Error: Not a valid id?"))\n\t\t\t\t\t\t\t.addClass("btn-danger").attr("disabled", false);\n\t\t\t\t\t\t$("#footer-subscribe-email").val("").attr(\'disabled\', false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t\telse\n\t\t\tfrappe.msgprint(frappe._("Please enter email address"))\n\t});\n});\n</script>\n\n\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="row footer-bottom-line">\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12">\n\t\t\t\t\t\n\t\t\t\t\t\t&copy; Xander Manufacture\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class="text-muted small col-sm-6 col-xs-12\n\t\t\t\t\ttext-right footer-powered">\n\t\t\t\t\t\n\t\t\t\t\t\t<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">\n\t\tPowered by ERPNext</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n</footer></div>\n\t</div>\n\t\n\t<!-- js should be loaded in body! -->\n\t<script type="text/javascript"\n\t\tsrc="/assets/frappe/js/lib/jquery/jquery.min.js"></script>\n\t<script type="text/javascript"\n\t\tsrc="/assets/js/frappe-web.min.js"></script>\n\t\n\t<script type="text/javascript" src="/website_script.js"></script>\n\t<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>\n\n\t<script>frappe.csrf_token = "b0188820ccf61405f4aa9b6d5b53159edcddb344c0dd9765afc4fb2c";</script></body>\n</html>',
+        method: 'GET',
+        path: '/api/method/frappe.async.can_subscribe_doc?sid=ff117e1bdba0098df2f0455a06c93c0e139164c89f0d7d8f4038a50e&doctype=Sales%20Order&docname=New%20Sales%20Order%201' },
+     accepted: false,
+     noContent: false,
+     badRequest: false,
+     unauthorized: false,
+     notAcceptable: false,
+     forbidden: false,
+     notFound: true,
+     type: 'text/html',
+     charset: 'utf-8',
+     links: {},
+     setEncoding: [Function: bound ],
+     redirects: [] } }
+listening on *: 9000
+{ Error: Bad Gateway
+    at Request.callback (/home/frappe/frappe-bench/node_modules/superagent/lib/node/index.js:675:11)
+    at IncomingMessage.<anonymous> (/home/frappe/frappe-bench/node_modules/superagent/lib/node/index.js:883:18)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+  status: 502,
+  response: 
+   Response {
+     domain: null,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: undefined,
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Object],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 502,
+        statusMessage: 'Bad Gateway',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Object],
+        text: '<!DOCTYPE html>\n<html lang="en">\n\t<head>\n\t\t<meta charset="utf-8">\n\t\t<title>Sorry! We will be back soon.</title>\n\t\t<style>\n\t\t\tbody {\n\t\t\t\tfont-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;\n\t\t\t\tcolor: #36414C;\n\t\t\t\tfont-weight: 300;\n\t\t\t}\n\n\t\t\t.page-container {\n\t\t\t\tmax-width: 800px;\n\t\t\t\tpadding: 15px;\n\t\t\t\tvertical-align: middle;\n\t\t\t\tposition: absolute;\n\t\t\t\ttop: 50%;\n\t\t\t\tleft: 0;\n\t\t\t\tright: 0;\n\t\t\t\tmargin: 0 auto;\n\t\t\t\ttransform: translate(0%, -50%);\n\t\t\t}\n\n\t\t\t.svg-container {\n\t\t\t\tfloat: left;\n\t\t\t\twidth: 150px;\n\t\t\t\tpadding-top: 24px;\n\t\t\t}\n\n\t\t\t.message-container {\n\t\t\t\tfloat: left;\n\t\t\t\tpadding-left: 15px;\n\t\t\t\tfont-size: 16px;\n\t\t\t\tline-height: 1.6;\n\t\t\t}\n\n\t\t\t.message-container h1 {\n\t\t\t\tfont-size: 48px;\n\t\t\t\tline-height: 1.2;\n\t\t\t\tfont-weight: 200;\n\t\t\t}\n\n\t\t\t.message-container .message {\n\t\t\t\tcolor: #8D99A6;\n\t\t\t}\n\n\t\t\t.clearfix {\n\t\t\t\tclear: both;\n\t\t\t}\n\n\t\t\ta {\n\t\t\t\tcolor: #5E64FF;\n\t\t\t}\n\n\t\t\t@media (max-width: 767px) {\n\t\t\t\t.svg-container {\n\t\t\t\t\tfloat: none;\n\t\t\t\t\tpadding-top: 0px;\n\t\t\t\t}\n\n\t\t\t\t.message-container {\n\t\t\t\t\tfloat: none;\n\t\t\t\t\twidth: 100% !important;\n\t\t\t\t}\n\t\t\t}\n\t\t</style>\n\t</head>\n\t<body>\n\t\t<div class="page-container">\n\t\t\t<div class="svg-container">\n\t\t\t\t<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" viewBox="0 0 32 32" version="1.1" x="0px" y="0px"><title>sad-face-avatar-boy-man-11</title><desc>Created with Sketch.</desc><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"><path d="M24.5728851,23.0941141 C26.0847779,16.969087 23.5542402,12.1548858 21.4280864,11.0822754 C19.598459,12.7549171 13.9938462,17 10.2890466,17 C12.2343263,15.4384766 12.8488535,12.9394531 12.8488535,12.9394531 C12.8488535,12.9394531 10.9859461,15.7346191 7.24611965,17 C6.45154466,18.5731485 6.67682658,20.3507184 6.78659707,21.5361582 C6.84777749,21.7403698 6.95210509,22.0855229 6.99214296,22.1994274 C7.09055416,22.4793995 7.21210961,22.7924224 7.35775135,23.1301118 C7.774276,24.0958785 8.2986796,25.0616511 8.9372701,25.9603932 C10.738893,28.4959687 13.0675623,30 16,30 C18.9311427,30 21.2399187,28.4973998 23.0104666,25.9636063 C23.6381381,25.065359 24.1509411,24.1000358 24.5559252,23.1346951 C24.5616169,23.1211281 24.5672702,23.1076009 24.5728851,23.0941141 L24.5728851,23.0941141 Z M5.94669386,22.2116429 C4.61458602,20.1217921 3.13011281,13.1987617 4.62664708,8.75830078 C6.40621687,3.47802734 12.6103081,1 15.7729333,1 C18.8013894,1.00000002 21.8450169,1.93994141 23.0552307,3.80615234 C23.0552307,3.80615234 25.0915798,2.75024414 26.9020692,3.80615234 C25.0915798,4.17895508 24.887945,5.19335938 24.887945,5.19335938 C27.9234944,6.90377632 29.4577737,17.0840684 26.1082885,21.6811732 C26.0708438,21.8119773 25.9120331,22.3649335 25.857287,22.526075 C25.7549564,22.8272785 25.6289716,23.1618434 25.4780638,23.5215549 C25.0472763,24.5484017 24.5017812,25.575266 23.8301706,26.5363937 C21.888484,29.3151002 19.2996007,31 16,31 C12.7016943,31 10.0952049,29.3165313 8.12209422,26.5396068 C7.43952798,25.5789739 6.88219633,24.552559 6.43951227,23.5261382 C6.28443097,23.166562 6.15455941,22.832124 6.04872776,22.5310413 C6.02660008,22.4680898 5.98792403,22.3454665 5.94669386,22.2116429 L5.94669386,22.2116429 Z M20.6103625,20.496219 L21.7234973,21.0527864 C21.9704865,21.176281 22.0705987,21.4766175 21.9471041,21.7236068 C21.8236094,21.970596 21.5232729,22.0707082 21.2762837,21.9472136 L19.2762837,20.9472136 C18.9077594,20.7629515 18.9077594,20.2370485 19.2762837,20.0527864 L21.2762837,19.0527864 C21.5232729,18.9292918 21.8236094,19.029404 21.9471041,19.2763932 C22.0705987,19.5233825 21.9704865,19.823719 21.7234973,19.9472136 L20.6103625,20.496219 Z M11.389528,20.496219 L10.2763932,21.0527864 C10.029404,21.176281 9.92929178,21.4766175 10.0527864,21.7236068 C10.176281,21.970596 10.4766175,22.0707082 10.7236068,21.9472136 L12.7236068,20.9472136 C13.0921311,20.7629515 13.0921311,20.2370485 12.7236068,20.0527864 L10.7236068,19.0527864 C10.4766175,18.9292918 10.176281,19.029404 10.0527864,19.2763932 C9.92929178,19.5233825 10.029404,19.823719 10.2763932,19.9472136 L11.389528,20.496219 Z M14.4246316,26.7639848 C14.4725953,26.6868331 14.5938453,26.5444206 14.7863941,26.3975309 C15.1127054,26.1485979 15.512309,26 16,26 C16.487691,26 16.8872946,26.1485979 17.2136059,26.3975309 C17.4061547,26.5444206 17.5274047,26.6868331 17.5753684,26.7639848 C17.7211632,26.9985024 18.0294673,27.0704264 18.2639848,26.9246316 C18.4985024,26.7788368 18.5704264,26.4705327 18.4246316,26.2360152 C18.3171754,26.0631669 18.1191505,25.8305794 17.8201344,25.6024691 C17.3271707,25.2264021 16.7183393,25 16,25 C15.2816607,25 14.6728293,25.2264021 14.1798656,25.6024691 C13.8808495,25.8305794 13.6828246,26.0631669 13.5753684,26.2360152 C13.4295736,26.4705327 13.5014976,26.7788368 13.7360152,26.9246316 C13.9705327,27.0704264 14.2788368,26.9985024 14.4246316,26.7639848 Z" fill="#000000" sketch:type="MSShapeGroup"></path></g></svg>\n\t\t\t</div>\n\t\t\t<div class="message-container" style="width: calc(100% - 170px);">\n\t\t\t\t<h1>\n\t\t\t\t\tSorry! <br>\n\t\t\t\t\tWe will be back soon.\n\t\t\t\t</h1>\n\t\t\t\t<p class="message">\n\t\t\t\t\t<strong>Don\'t panic.</strong> It\'s not you, it\'s us.<br>\n\t\t\t\t\tMost likely, our engineers are updating the code,\n\t\t\t\t\tand it should take a minute for the new code to load into memory.<br><br>\n\t\t\t\t\tTry refreshing after a minute or two.\n\t\t\t\t</p>\n\t\t\t</div>\n\t\t\t<div class="clearfix"></div>\n\t\t</div>\n\t</body>\n</html>\n',
+        read: [Function] },
+     request: 
+      Request {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        _agent: false,
+        _formData: null,
+        method: 'GET',
+        url: 'http://128.199.101.124/api/method/frappe.async.get_user_info',
+        _header: [Object],
+        header: [Object],
+        writable: true,
+        _redirects: 0,
+        _maxRedirects: 5,
+        cookies: '',
+        qs: [Object],
+        qsRaw: [],
+        _redirectList: [],
+        _streamRequest: false,
+        req: [Object],
+        protocol: 'http:',
+        host: '128.199.101.124',
+        _endCalled: true,
+        _callback: [Function],
+        res: [Object],
+        response: [Circular],
+        called: true },
+     req: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedHeader: {},
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /api/method/frappe.async.get_user_info?sid=0c980c2c896e940bbf827ffb212daa49df21e422d836a30a3c31912f HTTP/1.1\r\nHost: 128.199.101.124\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: node-superagent/3.5.2\r\nContent-Type: application/x-www-form-urlencoded\r\nConnection: close\r\n\r\n',
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: null,
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/api/method/frappe.async.get_user_info?sid=0c980c2c896e940bbf827ffb212daa49df21e422d836a30a3c31912f',
+        _ended: true,
+        parser: null,
+        res: [Object] },
+     text: '<!DOCTYPE html>\n<html lang="en">\n\t<head>\n\t\t<meta charset="utf-8">\n\t\t<title>Sorry! We will be back soon.</title>\n\t\t<style>\n\t\t\tbody {\n\t\t\t\tfont-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;\n\t\t\t\tcolor: #36414C;\n\t\t\t\tfont-weight: 300;\n\t\t\t}\n\n\t\t\t.page-container {\n\t\t\t\tmax-width: 800px;\n\t\t\t\tpadding: 15px;\n\t\t\t\tvertical-align: middle;\n\t\t\t\tposition: absolute;\n\t\t\t\ttop: 50%;\n\t\t\t\tleft: 0;\n\t\t\t\tright: 0;\n\t\t\t\tmargin: 0 auto;\n\t\t\t\ttransform: translate(0%, -50%);\n\t\t\t}\n\n\t\t\t.svg-container {\n\t\t\t\tfloat: left;\n\t\t\t\twidth: 150px;\n\t\t\t\tpadding-top: 24px;\n\t\t\t}\n\n\t\t\t.message-container {\n\t\t\t\tfloat: left;\n\t\t\t\tpadding-left: 15px;\n\t\t\t\tfont-size: 16px;\n\t\t\t\tline-height: 1.6;\n\t\t\t}\n\n\t\t\t.message-container h1 {\n\t\t\t\tfont-size: 48px;\n\t\t\t\tline-height: 1.2;\n\t\t\t\tfont-weight: 200;\n\t\t\t}\n\n\t\t\t.message-container .message {\n\t\t\t\tcolor: #8D99A6;\n\t\t\t}\n\n\t\t\t.clearfix {\n\t\t\t\tclear: both;\n\t\t\t}\n\n\t\t\ta {\n\t\t\t\tcolor: #5E64FF;\n\t\t\t}\n\n\t\t\t@media (max-width: 767px) {\n\t\t\t\t.svg-container {\n\t\t\t\t\tfloat: none;\n\t\t\t\t\tpadding-top: 0px;\n\t\t\t\t}\n\n\t\t\t\t.message-container {\n\t\t\t\t\tfloat: none;\n\t\t\t\t\twidth: 100% !important;\n\t\t\t\t}\n\t\t\t}\n\t\t</style>\n\t</head>\n\t<body>\n\t\t<div class="page-container">\n\t\t\t<div class="svg-container">\n\t\t\t\t<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" viewBox="0 0 32 32" version="1.1" x="0px" y="0px"><title>sad-face-avatar-boy-man-11</title><desc>Created with Sketch.</desc><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"><path d="M24.5728851,23.0941141 C26.0847779,16.969087 23.5542402,12.1548858 21.4280864,11.0822754 C19.598459,12.7549171 13.9938462,17 10.2890466,17 C12.2343263,15.4384766 12.8488535,12.9394531 12.8488535,12.9394531 C12.8488535,12.9394531 10.9859461,15.7346191 7.24611965,17 C6.45154466,18.5731485 6.67682658,20.3507184 6.78659707,21.5361582 C6.84777749,21.7403698 6.95210509,22.0855229 6.99214296,22.1994274 C7.09055416,22.4793995 7.21210961,22.7924224 7.35775135,23.1301118 C7.774276,24.0958785 8.2986796,25.0616511 8.9372701,25.9603932 C10.738893,28.4959687 13.0675623,30 16,30 C18.9311427,30 21.2399187,28.4973998 23.0104666,25.9636063 C23.6381381,25.065359 24.1509411,24.1000358 24.5559252,23.1346951 C24.5616169,23.1211281 24.5672702,23.1076009 24.5728851,23.0941141 L24.5728851,23.0941141 Z M5.94669386,22.2116429 C4.61458602,20.1217921 3.13011281,13.1987617 4.62664708,8.75830078 C6.40621687,3.47802734 12.6103081,1 15.7729333,1 C18.8013894,1.00000002 21.8450169,1.93994141 23.0552307,3.80615234 C23.0552307,3.80615234 25.0915798,2.75024414 26.9020692,3.80615234 C25.0915798,4.17895508 24.887945,5.19335938 24.887945,5.19335938 C27.9234944,6.90377632 29.4577737,17.0840684 26.1082885,21.6811732 C26.0708438,21.8119773 25.9120331,22.3649335 25.857287,22.526075 C25.7549564,22.8272785 25.6289716,23.1618434 25.4780638,23.5215549 C25.0472763,24.5484017 24.5017812,25.575266 23.8301706,26.5363937 C21.888484,29.3151002 19.2996007,31 16,31 C12.7016943,31 10.0952049,29.3165313 8.12209422,26.5396068 C7.43952798,25.5789739 6.88219633,24.552559 6.43951227,23.5261382 C6.28443097,23.166562 6.15455941,22.832124 6.04872776,22.5310413 C6.02660008,22.4680898 5.98792403,22.3454665 5.94669386,22.2116429 L5.94669386,22.2116429 Z M20.6103625,20.496219 L21.7234973,21.0527864 C21.9704865,21.176281 22.0705987,21.4766175 21.9471041,21.7236068 C21.8236094,21.970596 21.5232729,22.0707082 21.2762837,21.9472136 L19.2762837,20.9472136 C18.9077594,20.7629515 18.9077594,20.2370485 19.2762837,20.0527864 L21.2762837,19.0527864 C21.5232729,18.9292918 21.8236094,19.029404 21.9471041,19.2763932 C22.0705987,19.5233825 21.9704865,19.823719 21.7234973,19.9472136 L20.6103625,20.496219 Z M11.389528,20.496219 L10.2763932,21.0527864 C10.029404,21.176281 9.92929178,21.4766175 10.0527864,21.7236068 C10.176281,21.970596 10.4766175,22.0707082 10.7236068,21.9472136 L12.7236068,20.9472136 C13.0921311,20.7629515 13.0921311,20.2370485 12.7236068,20.0527864 L10.7236068,19.0527864 C10.4766175,18.9292918 10.176281,19.029404 10.0527864,19.2763932 C9.92929178,19.5233825 10.029404,19.823719 10.2763932,19.9472136 L11.389528,20.496219 Z M14.4246316,26.7639848 C14.4725953,26.6868331 14.5938453,26.5444206 14.7863941,26.3975309 C15.1127054,26.1485979 15.512309,26 16,26 C16.487691,26 16.8872946,26.1485979 17.2136059,26.3975309 C17.4061547,26.5444206 17.5274047,26.6868331 17.5753684,26.7639848 C17.7211632,26.9985024 18.0294673,27.0704264 18.2639848,26.9246316 C18.4985024,26.7788368 18.5704264,26.4705327 18.4246316,26.2360152 C18.3171754,26.0631669 18.1191505,25.8305794 17.8201344,25.6024691 C17.3271707,25.2264021 16.7183393,25 16,25 C15.2816607,25 14.6728293,25.2264021 14.1798656,25.6024691 C13.8808495,25.8305794 13.6828246,26.0631669 13.5753684,26.2360152 C13.4295736,26.4705327 13.5014976,26.7788368 13.7360152,26.9246316 C13.9705327,27.0704264 14.2788368,26.9985024 14.4246316,26.7639848 Z" fill="#000000" sketch:type="MSShapeGroup"></path></g></svg>\n\t\t\t</div>\n\t\t\t<div class="message-container" style="width: calc(100% - 170px);">\n\t\t\t\t<h1>\n\t\t\t\t\tSorry! <br>\n\t\t\t\t\tWe will be back soon.\n\t\t\t\t</h1>\n\t\t\t\t<p class="message">\n\t\t\t\t\t<strong>Don\'t panic.</strong> It\'s not you, it\'s us.<br>\n\t\t\t\t\tMost likely, our engineers are updating the code,\n\t\t\t\t\tand it should take a minute for the new code to load into memory.<br><br>\n\t\t\t\t\tTry refreshing after a minute or two.\n\t\t\t\t</p>\n\t\t\t</div>\n\t\t\t<div class="clearfix"></div>\n\t\t</div>\n\t</body>\n</html>\n',
+     body: {},
+     files: undefined,
+     buffered: true,
+     headers: 
+      { server: 'nginx/1.10.0 (Ubuntu)',
+        date: 'Tue, 04 Apr 2017 15:37:46 GMT',
+        'content-type': 'text/html',
+        'content-length': '5444',
+        connection: 'close',
+        etag: '"58e30500-1544"' },
+     header: 
+      { server: 'nginx/1.10.0 (Ubuntu)',
+        date: 'Tue, 04 Apr 2017 15:37:46 GMT',
+        'content-type': 'text/html',
+        'content-length': '5444',
+        connection: 'close',
+        etag: '"58e30500-1544"' },
+     statusCode: 502,
+     status: 502,
+     statusType: 5,
+     info: false,
+     ok: false,
+     redirect: false,
+     clientError: false,
+     serverError: true,
+     error: 
+      { Error: cannot GET /api/method/frappe.async.get_user_info?sid=0c980c2c896e940bbf827ffb212daa49df21e422d836a30a3c31912f (502)
+          at Response.toError (/home/frappe/frappe-bench/node_modules/superagent/lib/node/response.js:94:13)
+          at ResponseBase._setStatusProperties (/home/frappe/frappe-bench/node_modules/superagent/lib/response-base.js:122:16)
+          at new Response (/home/frappe/frappe-bench/node_modules/superagent/lib/node/response.js:40:8)
+          at Request._emitResponse (/home/frappe/frappe-bench/node_modules/superagent/lib/node/index.js:738:20)
+          at IncomingMessage.<anonymous> (/home/frappe/frappe-bench/node_modules/superagent/lib/node/index.js:883:38)
+          at emitNone (events.js:91:20)
+          at IncomingMessage.emit (events.js:185:7)
+          at endReadableNT (_stream_readable.js:974:12)
+          at _combinedTickCallback (internal/process/next_tick.js:80:11)
+          at process._tickCallback (internal/process/next_tick.js:104:9)
+        status: 502,
+        text: '<!DOCTYPE html>\n<html lang="en">\n\t<head>\n\t\t<meta charset="utf-8">\n\t\t<title>Sorry! We will be back soon.</title>\n\t\t<style>\n\t\t\tbody {\n\t\t\t\tfont-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;\n\t\t\t\tcolor: #36414C;\n\t\t\t\tfont-weight: 300;\n\t\t\t}\n\n\t\t\t.page-container {\n\t\t\t\tmax-width: 800px;\n\t\t\t\tpadding: 15px;\n\t\t\t\tvertical-align: middle;\n\t\t\t\tposition: absolute;\n\t\t\t\ttop: 50%;\n\t\t\t\tleft: 0;\n\t\t\t\tright: 0;\n\t\t\t\tmargin: 0 auto;\n\t\t\t\ttransform: translate(0%, -50%);\n\t\t\t}\n\n\t\t\t.svg-container {\n\t\t\t\tfloat: left;\n\t\t\t\twidth: 150px;\n\t\t\t\tpadding-top: 24px;\n\t\t\t}\n\n\t\t\t.message-container {\n\t\t\t\tfloat: left;\n\t\t\t\tpadding-left: 15px;\n\t\t\t\tfont-size: 16px;\n\t\t\t\tline-height: 1.6;\n\t\t\t}\n\n\t\t\t.message-container h1 {\n\t\t\t\tfont-size: 48px;\n\t\t\t\tline-height: 1.2;\n\t\t\t\tfont-weight: 200;\n\t\t\t}\n\n\t\t\t.message-container .message {\n\t\t\t\tcolor: #8D99A6;\n\t\t\t}\n\n\t\t\t.clearfix {\n\t\t\t\tclear: both;\n\t\t\t}\n\n\t\t\ta {\n\t\t\t\tcolor: #5E64FF;\n\t\t\t}\n\n\t\t\t@media (max-width: 767px) {\n\t\t\t\t.svg-container {\n\t\t\t\t\tfloat: none;\n\t\t\t\t\tpadding-top: 0px;\n\t\t\t\t}\n\n\t\t\t\t.message-container {\n\t\t\t\t\tfloat: none;\n\t\t\t\t\twidth: 100% !important;\n\t\t\t\t}\n\t\t\t}\n\t\t</style>\n\t</head>\n\t<body>\n\t\t<div class="page-container">\n\t\t\t<div class="svg-container">\n\t\t\t\t<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" viewBox="0 0 32 32" version="1.1" x="0px" y="0px"><title>sad-face-avatar-boy-man-11</title><desc>Created with Sketch.</desc><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"><path d="M24.5728851,23.0941141 C26.0847779,16.969087 23.5542402,12.1548858 21.4280864,11.0822754 C19.598459,12.7549171 13.9938462,17 10.2890466,17 C12.2343263,15.4384766 12.8488535,12.9394531 12.8488535,12.9394531 C12.8488535,12.9394531 10.9859461,15.7346191 7.24611965,17 C6.45154466,18.5731485 6.67682658,20.3507184 6.78659707,21.5361582 C6.84777749,21.7403698 6.95210509,22.0855229 6.99214296,22.1994274 C7.09055416,22.4793995 7.21210961,22.7924224 7.35775135,23.1301118 C7.774276,24.0958785 8.2986796,25.0616511 8.9372701,25.9603932 C10.738893,28.4959687 13.0675623,30 16,30 C18.9311427,30 21.2399187,28.4973998 23.0104666,25.9636063 C23.6381381,25.065359 24.1509411,24.1000358 24.5559252,23.1346951 C24.5616169,23.1211281 24.5672702,23.1076009 24.5728851,23.0941141 L24.5728851,23.0941141 Z M5.94669386,22.2116429 C4.61458602,20.1217921 3.13011281,13.1987617 4.62664708,8.75830078 C6.40621687,3.47802734 12.6103081,1 15.7729333,1 C18.8013894,1.00000002 21.8450169,1.93994141 23.0552307,3.80615234 C23.0552307,3.80615234 25.0915798,2.75024414 26.9020692,3.80615234 C25.0915798,4.17895508 24.887945,5.19335938 24.887945,5.19335938 C27.9234944,6.90377632 29.4577737,17.0840684 26.1082885,21.6811732 C26.0708438,21.8119773 25.9120331,22.3649335 25.857287,22.526075 C25.7549564,22.8272785 25.6289716,23.1618434 25.4780638,23.5215549 C25.0472763,24.5484017 24.5017812,25.575266 23.8301706,26.5363937 C21.888484,29.3151002 19.2996007,31 16,31 C12.7016943,31 10.0952049,29.3165313 8.12209422,26.5396068 C7.43952798,25.5789739 6.88219633,24.552559 6.43951227,23.5261382 C6.28443097,23.166562 6.15455941,22.832124 6.04872776,22.5310413 C6.02660008,22.4680898 5.98792403,22.3454665 5.94669386,22.2116429 L5.94669386,22.2116429 Z M20.6103625,20.496219 L21.7234973,21.0527864 C21.9704865,21.176281 22.0705987,21.4766175 21.9471041,21.7236068 C21.8236094,21.970596 21.5232729,22.0707082 21.2762837,21.9472136 L19.2762837,20.9472136 C18.9077594,20.7629515 18.9077594,20.2370485 19.2762837,20.0527864 L21.2762837,19.0527864 C21.5232729,18.9292918 21.8236094,19.029404 21.9471041,19.2763932 C22.0705987,19.5233825 21.9704865,19.823719 21.7234973,19.9472136 L20.6103625,20.496219 Z M11.389528,20.496219 L10.2763932,21.0527864 C10.029404,21.176281 9.92929178,21.4766175 10.0527864,21.7236068 C10.176281,21.970596 10.4766175,22.0707082 10.7236068,21.9472136 L12.7236068,20.9472136 C13.0921311,20.7629515 13.0921311,20.2370485 12.7236068,20.0527864 L10.7236068,19.0527864 C10.4766175,18.9292918 10.176281,19.029404 10.0527864,19.2763932 C9.92929178,19.5233825 10.029404,19.823719 10.2763932,19.9472136 L11.389528,20.496219 Z M14.4246316,26.7639848 C14.4725953,26.6868331 14.5938453,26.5444206 14.7863941,26.3975309 C15.1127054,26.1485979 15.512309,26 16,26 C16.487691,26 16.8872946,26.1485979 17.2136059,26.3975309 C17.4061547,26.5444206 17.5274047,26.6868331 17.5753684,26.7639848 C17.7211632,26.9985024 18.0294673,27.0704264 18.2639848,26.9246316 C18.4985024,26.7788368 18.5704264,26.4705327 18.4246316,26.2360152 C18.3171754,26.0631669 18.1191505,25.8305794 17.8201344,25.6024691 C17.3271707,25.2264021 16.7183393,25 16,25 C15.2816607,25 14.6728293,25.2264021 14.1798656,25.6024691 C13.8808495,25.8305794 13.6828246,26.0631669 13.5753684,26.2360152 C13.4295736,26.4705327 13.5014976,26.7788368 13.7360152,26.9246316 C13.9705327,27.0704264 14.2788368,26.9985024 14.4246316,26.7639848 Z" fill="#000000" sketch:type="MSShapeGroup"></path></g></svg>\n\t\t\t</div>\n\t\t\t<div class="message-container" style="width: calc(100% - 170px);">\n\t\t\t\t<h1>\n\t\t\t\t\tSorry! <br>\n\t\t\t\t\tWe will be back soon.\n\t\t\t\t</h1>\n\t\t\t\t<p class="message">\n\t\t\t\t\t<strong>Don\'t panic.</strong> It\'s not you, it\'s us.<br>\n\t\t\t\t\tMost likely, our engineers are updating the code,\n\t\t\t\t\tand it should take a minute for the new code to load into memory.<br><br>\n\t\t\t\t\tTry refreshing after a minute or two.\n\t\t\t\t</p>\n\t\t\t</div>\n\t\t\t<div class="clearfix"></div>\n\t\t</div>\n\t</body>\n</html>\n',
+        method: 'GET',
+        path: '/api/method/frappe.async.get_user_info?sid=0c980c2c896e940bbf827ffb212daa49df21e422d836a30a3c31912f' },
+     accepted: false,
+     noContent: false,
+     badRequest: false,
+     unauthorized: false,
+     notAcceptable: false,
+     forbidden: false,
+     notFound: false,
+     type: 'text/html',
+     links: {},
+     setEncoding: [Function: bound ],
+     redirects: [] } }
